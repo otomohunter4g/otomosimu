@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@700&display=swap" rel="stylesheet">
+    <title>オトモシミュレーター【MH4G】</title>
+</head>
+
+<body style="overflow-y: unset !important;">
+    <div class="main-wrap-2-column">
+        <div class="c-box w-for-tips-custom-style">
+            <div class="article-hero">
+                <!--タイトル-->
+                <div class="article-top in-article">
+                    <h1 class="_title">オトモシミュレーター【MH4G】</h1>
+                </div>
+                <!--ヘッダー画像-->
+                <img src="https://cdn.discordapp.com/attachments/1072464097825804350/1091549282768785488/otomosimu_header.png" alt="オトモシミュレーター【MH4G】" class="article-ogimage">
+            </div>
+            <div class="article-wrap">
+                <!--概要-->
+                <div id="article-body" class="">
+                    <p><span class="sub-info">オトモのトレンド、合体技、戦闘用スキルからオトモの性能を100点満点で採点します（なお戦闘時の性能に限る）。</span>
+                    </p>
+                    <!--目次-->
+                    <div class="article_outline">
+                        <p><span class="bolder">目次</span></p>
+                        <ul>
+                            <li><a href="#1"> オトモシミュレーター</a></li>
+                            <li><a href="#2"> オトモの情報の見方</a></li>
+                            <li><a href="#3"> 詳しくはこちらのサーバーへ！</a></li>
+                            <li><a href="#4"> 関連動画</a></li>
+                        </ul>
+                    </div>
+                    <!--オトモシミュレーター-->
+                    <h2 id="1">オトモシミュレーター</h2>
+                    <!--注意書き-->
+                    <p class="alert-yellow"><span
+                            style="color:rgb(210, 19, 206);">オトモの合体技、トレンド、スキルをそれぞれ選択して下さい。スキルは1~3つまで選択可能です。</span></p>
+                    <div id="otomoSkillSimurator" data-v-app="">
+                        <div class="w-otomo-ss is-ja">
+                            <!--合体技の選択-->
+                            <div class="w-otomo-ss-tabs">
+                                <div class="w-otomo-ss-tab totugeki _is-active">突撃隊</div>
+                                <div class="w-otomo-ss-tab ouen">応援楽団</div>
+                                <div class="w-otomo-ss-tab karyuuguruma">火竜車</div>
+                            </div>
+                            <!--トレンドの選択-->
+                            <div id="sim-content" class="w-otomo-ss-content">
+                                <div class="w-wrap">
+                                    <div class="w-otomo-ss-weapon-tabs w-section">
+                                        <div class="w-otomo-ss-weapon-tab">
+                                            <div class="w-otomo-ss-weapon-tab-inner _selected" trend-points="10">
+                                                ファイ<span>ト</span></div>
+                                        </div>
+                                        <div class="w-otomo-ss-weapon-tab">
+                                            <div class="w-otomo-ss-weapon-tab-inner" trend-points="14">ガード<span></span>
+                                            </div>
+                                        </div>
+                                        <div class="w-otomo-ss-weapon-tab">
+                                            <div class="w-otomo-ss-weapon-tab-inner" trend-points="14">アシ<span>スト</span>
+                                            </div>
+                                        </div>
+                                        <div class="w-otomo-ss-weapon-tab">
+                                            <div class="w-otomo-ss-weapon-tab-inner" trend-points="15">回復<span></span>
+                                            </div>
+                                        </div>
+                                        <div class="w-otomo-ss-weapon-tab">
+                                            <div class="w-otomo-ss-weapon-tab-inner" trend-points="7">ボマ<span>ー</span>
+                                            </div>
+                                        </div>
+                                        <div class="w-otomo-ss-weapon-tab">
+                                            <div class="w-otomo-ss-weapon-tab-inner" trend-points="11">ぶんど<span>り</span>
+                                            </div>
+                                        </div>
+                                        <div class="w-otomo-ss-weapon-tab">
+                                            <div class="w-otomo-ss-weapon-tab-inner" trend-points="8">宝探し<span></span>
+                                            </div>
+                                        </div>
+                                        <div class="w-otomo-ss-weapon-tab">
+                                            <div class="w-otomo-ss-weapon-tab-inner" trend-points="8">ジャン<span>プ</span>
+                                            </div>
+                                        </div>
+                                        <div class="w-otomo-ss-weapon-tab">
+                                            <div class="w-otomo-ss-weapon-tab-inner" trend-points="10">ビース<span>ト</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="w-separator"></div>
+                                    <div class="w-otomo-ss-section-title "> 所持している <b>オトモスキル</b> を選択して下さい</div>
+                                    <div class="w-otomo-ss-skill-selector w-section ">
+                                        <div class="w-otomo-ss-recommend-container">
+                                            <div class="w-otomo-ss-subject">◆ 1pt オトモスキル</div>
+                                            <div class="w-otomo-ss-skill-selector-skills">
+                                                <div class="w-otomo-ss-skill-selector-skill" skill-points="5">ガード確率強化・小
+                                                </div>
+                                                <div class="w-otomo-ss-skill-selector-skill" skill-points="2">会心攻撃強化の術
+                                                </div>
+                                                <div class="w-otomo-ss-skill-selector-skill" skill-points="2">採取封印の術
+                                                </div>
+                                                <div class="w-otomo-ss-skill-selector-skill" skill-points="1">サボり中・回復の術
+                                                </div>
+                                                <div class="w-otomo-ss-skill-selector-skill" skill-points="4">全耐性強化の術
+                                                </div>
+                                                <div class="w-otomo-ss-skill-selector-skill" skill-points="6">大砲・バリスタ強化術
+                                                </div>
+                                                <div class="w-otomo-ss-skill-selector-skill" skill-points="4">だるま早割りの術
+                                                </div>
+                                                <div class="w-otomo-ss-skill-selector-skill" skill-points="5">毒無効の術
+                                                </div>
+                                                <div class="w-otomo-ss-skill-selector-skill" skill-points="1">マタタビ爆弾の術
+                                                </div>
+                                                <div class="w-otomo-ss-skill-selector-skill" skill-points="2">打撃武器強化の術
+                                                </div>
+                                                <div class="w-otomo-ss-skill-selector-skill" skill-points="2">斬撃武器強化の術
+                                                </div>
+                                            </div>
+                                            <div class="w-otomo-ss-recommend-skills-separator"></div>
+                                            <div class="w-otomo-ss-subject">◆ 2pt オトモスキル</div>
+                                            <div class="w-otomo-ss-skill-selector-skills">
+                                                <div class="w-otomo-ss-skill-selector-skill" skill-points="13">起き上がりこぼし術
+                                                </div>
+                                                <div class="w-otomo-ss-skill-selector-skill" skill-points="10">サボり無しの術
+                                                </div>
+                                                <div class="w-otomo-ss-skill-selector-skill" skill-points="9">七転八起の術 [攻]
+                                                </div>
+                                                <div class="w-otomo-ss-skill-selector-skill" skill-points="8">七転八起の術 [防]
+                                                </div>
+                                                <div class="w-otomo-ss-skill-selector-skill" skill-points="0">背水の陣の術
+                                                </div>
+                                                <div class="w-otomo-ss-skill-selector-skill" skill-points="15">風圧無効の術
+                                                </div>
+                                                <div class="w-otomo-ss-skill-selector-skill" skill-points="16">防音の術
+                                                </div>
+                                                <div class="w-otomo-ss-skill-selector-skill" skill-points="7">属性武器強化の術
+                                                </div>
+                                                <div class="w-otomo-ss-skill-selector-skill g1" skill-points="20">
+                                                    合体技リベンジ術</div>
+                                                <div class="w-otomo-ss-skill-selector-skill g2" skill-points="35">合体技属性術
+                                                    [＊]</div>
+                                                <div class="w-otomo-ss-skill-selector-skill g3" skill-points="11">合体技強化術
+                                                </div>
+                                                <div class="w-otomo-ss-skill-selector-skill g4" skill-points="19">
+                                                    合体技テキパキ術</div>
+                                                <div class="w-otomo-ss-skill-selector-skill g5" skill-points="30">
+                                                    合体技サイン指令の術</div>
+                                            </div>
+                                            <div class="w-otomo-ss-recommend-skills-separator"></div>
+                                            <div class="w-otomo-ss-subject">◆ 3pt オトモスキル</div>
+                                            <div class="w-otomo-ss-skill-selector-skills">
+                                                <div class="w-otomo-ss-skill-selector-skill" skill-points="26">ガード確率強化・大
+                                                </div>
+                                                <div class="w-otomo-ss-skill-selector-skill" skill-points="24">高速回復の術
+                                                </div>
+                                                <div class="w-otomo-ss-skill-selector-skill" skill-points="9">攻防強化の術
+                                                </div>
+                                                <div class="w-otomo-ss-skill-selector-skill" skill-points="17">状態異常攻撃
+                                                    [＊]</div>
+                                                <div class="w-otomo-ss-skill-selector-skill" skill-points="25">
+                                                    狂竜ウイルス対抗の術</div>
+                                                <div class="w-otomo-ss-skill-selector-skill" skill-points="15">テンション維持の術
+                                                </div>
+                                                <div class="w-otomo-ss-skill-selector-skill g6" skill-points="39">
+                                                    合体技大改造の術</div>
+                                            </div><!--v-if-->
+                                        </div>
+                                    </div>
+                                    <div class="w-separator"></div>
+                                    <button id="JsWotomoSkillsimSearchButton"
+                                        class="w-otomo-ss-search-button">採点する</button>
+                                </div>
+                            </div><!--v-if-->
+                        </div>
+                    </div>
+                    <!--オトモ情報の見方-->
+                    <h2 id="2">オトモの情報の見方</h2>
+                    <div class="otomo_img_adjust">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <th>画像1</th>
+                                    <th>画像2</th>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="w-article-img article-img-zoom-wrap js-img-preview_container"
+                                            style="width:100%">
+                                            <div class="js-lazyload-img-wrap c-thumb-placeholder"
+                                                style="padding-bottom: 131%; background-color: transparent;"><img
+                                                    class="js-img-preview c-progressive-img is-lazyloaded"
+                                                    src="https://cdn.discordapp.com/attachments/1072464097825804350/1090898398577692683/1.png"
+                                                    preview="https://cdn.discordapp.com/attachments/1072464097825804350/1090898398577692683/1.png"
+                                                    alt="キバク君1" style="display: block;">
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="w-article-img article-img-zoom-wrap js-img-preview_container"
+                                            style="width:100%">
+                                            <div class="js-lazyload-img-wrap c-thumb-placeholder"
+                                                style="padding-bottom: 131%; background-color: transparent;"><img
+                                                    class="js-img-preview c-progressive-img is-lazyloaded"
+                                                    src="https://cdn.discordapp.com/attachments/1072464097825804350/1090898398867112026/2.png"
+                                                    preview="https://cdn.discordapp.com/attachments/1072464097825804350/1090898398867112026/2.png"
+                                                    alt="キバク君2" style="display: block;">
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <h4>①合体技</h4>
+                    <p>合体技は画像1の①の場所に記載されていて、「ネコ式突撃隊」、「ネコ式応援楽団」、「ネコ式火竜車」の3種類が存在する。シミュレーターでは合体技の種類によって採点方法が変化するのでシミュレーターの最上部から選択しよう。
+                    </p>
+                    <h4>②トレンド</h4>
+                    <p>トレンドは画像1の②の場所に記載されていて、ファイトからビーストまで全9種類のトレンドが存在する。「リーダー」のトレンドはメインオトモ専用なので、サブオトモでは正規の方法では取り得ないことに注意。
+                    </p>
+                    <h4>③オトモスキル（戦闘用）</h4>
+                    <p>戦闘用のオトモスキルは画像2の③の場所に記載されていて、通常のオトモは必ず1種類以上、最大で3種類までこのスキルを所持しうる。</p>
+                    <!--サーバーリンク-->
+                    <h2 id="3">詳しくはこちらのサーバーへ！</h2>
+                    <p>以下のサーバーでゴール級オトモの配布を行ったり、オトモの戦術の開発・研究を行っています。詳しくオトモ情報について知りたい方は是非ともお越し下さい。</p>
+                    <iframe class="hatenablogcard" style="width:100%;height:155px;max-width:680px;" width="100%"
+                        title="ゆいゆいと4Gオトモ掲示板"
+                        src="https://hatenablog-parts.com/embed?url=https://discord.gg/invite/R9Mmr7Kmtg"
+                        frameborder="0" scrolling="no">
+                    </iframe>
+                    <iframe src="https://discord.com/widget?id=929183769343197244&theme=dark" width="100%"
+                        height="400px" allowtransparency="true" frameborder="0"
+                        sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+                    <script async src="//iframely.net/embed.js"></script>
+                    <!--関連動画の記載-->
+                    <h2 id="4">関連動画</h2>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <th width="40%"><a href="https://youtu.be/LGMuxwlf0f8"><img
+                                            src="http://img.youtube.com/vi/LGMuxwlf0f8/default.jpg"
+                                            class="js-lazyload-fixed-size-img c-blank-img w-article-img is-lazyloaded"
+                                            alt="【モンハン4G】オトモのバフ効果最強って知ってる？【ゆっくり解説】"
+                                            style="display: block;"><noscript><img
+                                                src="http://img.youtube.com/vi/LGMuxwlf0f8/default.jpg"
+                                                alt="【モンハン4G】オトモのバフ効果最強って知ってる？【ゆっくり解説】"/></noscript></a></th>
+                                <td><a href="https://youtu.be/LGMuxwlf0f8">【モンハン4G】オトモのバフ効果最強って知ってる？【ゆっくり解説】</a>
+                                    <hr>オトモの使い方について説明されている動画です。
+                                </td>
+                            </tr>
+                            <tr>
+                                <th width="40%"><a href="https://youtu.be/BXubl7ps6bw"><img
+                                            src="http://img.youtube.com/vi/BXubl7ps6bw/default.jpg"
+                                            class="js-lazyload-fixed-size-img c-blank-img w-article-img is-lazyloaded"
+                                            alt="【MH4G】４Ｇのオトモは弱くなかった！？属性強化スキルで検証してみた"
+                                            style="display: block;"><noscript><img
+                                                src="http://img.youtube.com/vi/BXubl7ps6bw/default.jpg"
+                                                alt="【MH4G】４Ｇのオトモは弱くなかった！？属性強化スキルで検証してみた" /></noscript></a></th>
+                                <td><a href="https://youtu.be/BXubl7ps6bw">【MH4G】４Ｇのオトモは弱くなかった！？属性強化スキルで検証してみた</a>
+                                    <hr>オトモの強さを実践で紹介している動画です。
+                                </td>
+                            </tr>
+                            <tr>
+                                <th width="40%"><a href="https://www.youtube.com/watch?v=KBiXBIv6RGU"><img
+                                            src="http://img.youtube.com/vi/KBiXBIv6RGU/default.jpg"
+                                            class="js-lazyload-fixed-size-img c-blank-img w-article-img is-lazyloaded"
+                                            alt="【MH4G】４つの属性弾が速射できるライトであのモンスを狩る" style="display: block;"><noscript><img
+                                                src="http://img.youtube.com/vi/KBiXBIv6RGU/default.jpg"
+                                                alt="【MH4G】４つの属性弾が速射できるライトであのモンスを狩る"/></noscript></a></th>
+                                <td><a
+                                        href="https://www.youtube.com/watch?v=KBiXBIv6RGU">【MH4G】４つの属性弾が速射できるライトであのモンスを狩る</a>
+                                    <hr>合体技属性術＋属性弾でモンスターを狩猟する動画です。
+                                </td>
+                            </tr>
+                            <tr>
+                                <th width="40%"><a href="https://youtu.be/i_yW-xJPVyU"><img
+                                            src="http://img.youtube.com/vi/i_yW-xJPVyU/default.jpg"
+                                            class="js-lazyload-fixed-size-img c-blank-img w-article-img is-lazyloaded"
+                                            alt="【MH4G】アカムトルムを２分で沈める滅龍弾がマジでヤバい" style="display: block;"><noscript><img
+                                                src="http://img.youtube.com/vi/i_yW-xJPVyU/default.jpg"
+                                                alt="【MH4G】アカムトルムを２分で沈める滅龍弾がマジでヤバい"/></noscript></a></th>
+                                <td><a href="https://youtu.be/i_yW-xJPVyU">【MH4G】アカムトルムを２分で沈める滅龍弾がマジでヤバい</a>
+                                    <hr>合体技属性術＋滅龍弾でアカムトルムを2分で狩猟する動画です。
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div><!-- otomo スキルシミュレータ HTMLここまで -->
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
