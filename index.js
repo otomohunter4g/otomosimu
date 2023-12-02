@@ -2,7 +2,7 @@ document.addEventListener(
     "DOMContentLoaded",
     function () {
       let skill_points = 0;
-      let trend_points = 10;
+      let trend_points = 12;
   
       //合体技のボタン
       // 合体技要素を取得
@@ -20,26 +20,46 @@ document.addEventListener(
   
       // 突撃隊をクリックした時の処理
       function handleClick1_totugeki(event) {
+        //合体技の点数を取得
         var g1Elements = document.getElementsByClassName("g1");
         var g2Elements = document.getElementsByClassName("g2");
         var g3Elements = document.getElementsByClassName("g3");
         var g4Elements = document.getElementsByClassName("g4");
         var g5Elements = document.getElementsByClassName("g5");
         var g6Elements = document.getElementsByClassName("g6");
-  
+  　　　//トレンドの点数を取得
+        var t1Elements = document.getElementsByClassName("g1");
+        var t2Elements = document.getElementsByClassName("g2");
+        var t3Elements = document.getElementsByClassName("g3");
+        var t4Elements = document.getElementsByClassName("g4");
+        var t5Elements = document.getElementsByClassName("g5");
+        var t6Elements = document.getElementsByClassName("g6");
+        var t7Elements = document.getElementsByClassName("g7");
+        var t8Elements = document.getElementsByClassName("g8");
+        var t9Elements = document.getElementsByClassName("g9");
         // 全てのボタンから「_is-active」classを削除
         gattaibuttons.forEach((button) => {
           button.classList.remove("_is-active");
         });
         // クリックされたボタンに「_is-active」classを追加
         event.currentTarget.classList.add("_is-active");
+        //合体技の点数を変更
         g1Elements[0].setAttribute("skill-points", "23");
         g2Elements[0].setAttribute("skill-points", "35");
         g3Elements[0].setAttribute("skill-points", "11");
         g4Elements[0].setAttribute("skill-points", "19");
         g5Elements[0].setAttribute("skill-points", "27");
         g6Elements[0].setAttribute("skill-points", "39");
-  
+  　　　//トレンドの点数を変更
+        t1Elements[0].setAttribute("trend-points", "12");
+        t2Elements[0].setAttribute("trend-points", "12");
+        t3Elements[0].setAttribute("trend-points", "14");
+        t4Elements[0].setAttribute("trend-points", "15");
+        t5Elements[0].setAttribute("trend-points", "9");
+        t6Elements[0].setAttribute("trend-points", "13");
+        t7Elements[0].setAttribute("trend-points", "9");
+        t8Elements[0].setAttribute("trend-points", "10");
+        t9Elements[0].setAttribute("trend-points", "11");
         //オトモスキルのボタンから「_is-selected」classを削除
         skillbuttons.forEach((button) => {
           button.classList.remove("_is-selected");
@@ -55,12 +75,23 @@ document.addEventListener(
   
       // 応援楽団をクリックした時の処理
       function handleClick1_ouen(event) {
+        //合体技の点数を取得
         var g1Elements = document.getElementsByClassName("g1");
         var g2Elements = document.getElementsByClassName("g2");
         var g3Elements = document.getElementsByClassName("g3");
         var g4Elements = document.getElementsByClassName("g4");
         var g5Elements = document.getElementsByClassName("g5");
         var g6Elements = document.getElementsByClassName("g6");
+  　　　//トレンドの点数を取得
+        var t1Elements = document.getElementsByClassName("g1");
+        var t2Elements = document.getElementsByClassName("g2");
+        var t3Elements = document.getElementsByClassName("g3");
+        var t4Elements = document.getElementsByClassName("g4");
+        var t5Elements = document.getElementsByClassName("g5");
+        var t6Elements = document.getElementsByClassName("g6");
+        var t7Elements = document.getElementsByClassName("g7");
+        var t8Elements = document.getElementsByClassName("g8");
+        var t9Elements = document.getElementsByClassName("g9");
   
         // 全てのボタンから「_is-active」classを削除
         gattaibuttons.forEach((button) => {
@@ -68,12 +99,23 @@ document.addEventListener(
         });
         // クリックされたボタンに「_is-active」classを追加
         event.currentTarget.classList.add("_is-active");
+        //合体技の点数を変更
         g1Elements[0].setAttribute("skill-points", "15");
         g2Elements[0].setAttribute("skill-points", "17");
         g3Elements[0].setAttribute("skill-points", "11");
         g4Elements[0].setAttribute("skill-points", "11");
         g5Elements[0].setAttribute("skill-points", "34");
         g6Elements[0].setAttribute("skill-points", "45");
+  　　　//トレンドの点数を変更
+        t1Elements[0].setAttribute("trend-points", "11");
+        t2Elements[0].setAttribute("trend-points", "14");
+        t3Elements[0].setAttribute("trend-points", "14");
+        t4Elements[0].setAttribute("trend-points", "15");
+        t5Elements[0].setAttribute("trend-points", "9");
+        t6Elements[0].setAttribute("trend-points", "12");
+        t7Elements[0].setAttribute("trend-points", "8");
+        t8Elements[0].setAttribute("trend-points", "10");
+        t9Elements[0].setAttribute("trend-points", "11");
         //オトモスキルのボタンから「_is-selected」classを削除
         skillbuttons.forEach((button) => {
           button.classList.remove("_is-selected");
@@ -85,12 +127,23 @@ document.addEventListener(
   
       // 火竜車をクリックした時の処理
       function handleClick1_karyuuguruma(event) {
+        //合体技の点数を取得
         var g1Elements = document.getElementsByClassName("g1");
         var g2Elements = document.getElementsByClassName("g2");
         var g3Elements = document.getElementsByClassName("g3");
         var g4Elements = document.getElementsByClassName("g4");
         var g5Elements = document.getElementsByClassName("g5");
         var g6Elements = document.getElementsByClassName("g6");
+  　　　//トレンドの点数を取得
+        var t1Elements = document.getElementsByClassName("g1");
+        var t2Elements = document.getElementsByClassName("g2");
+        var t3Elements = document.getElementsByClassName("g3");
+        var t4Elements = document.getElementsByClassName("g4");
+        var t5Elements = document.getElementsByClassName("g5");
+        var t6Elements = document.getElementsByClassName("g6");
+        var t7Elements = document.getElementsByClassName("g7");
+        var t8Elements = document.getElementsByClassName("g8");
+        var t9Elements = document.getElementsByClassName("g9");
   
         // 全てのボタンから「_is-active」classを削除
         gattaibuttons.forEach((button) => {
@@ -98,12 +151,23 @@ document.addEventListener(
         });
         // クリックされたボタンに「_is-active」classを追加
         event.currentTarget.classList.add("_is-active");
+        //合体技の点数を変更
         g1Elements[0].setAttribute("skill-points", "12");
         g2Elements[0].setAttribute("skill-points", "13");
         g3Elements[0].setAttribute("skill-points", "15");
         g4Elements[0].setAttribute("skill-points", "35");
         g5Elements[0].setAttribute("skill-points", "30");
         g6Elements[0].setAttribute("skill-points", "23");
+        //トレンドの点数を変更
+        t1Elements[0].setAttribute("trend-points", "15");
+        t2Elements[0].setAttribute("trend-points", "7");
+        t3Elements[0].setAttribute("trend-points", "10");
+        t4Elements[0].setAttribute("trend-points", "8");
+        t5Elements[0].setAttribute("trend-points", "12");
+        t6Elements[0].setAttribute("trend-points", "12");
+        t7Elements[0].setAttribute("trend-points", "8");
+        t8Elements[0].setAttribute("trend-points", "7");
+        t9Elements[0].setAttribute("trend-points", "13");
         //オトモスキルのボタンから「_is-selected」classを削除
         skillbuttons.forEach((button) => {
           button.classList.remove("_is-selected");
