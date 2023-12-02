@@ -45,12 +45,12 @@ document.addEventListener(
       // クリックされたボタンに「_is-active」classを追加
       event.currentTarget.classList.add("_is-active");
       //合体技の点数を変更
-      g1Elements[0].setAttribute("skill-points", "23");
-      g2Elements[0].setAttribute("skill-points", "35");
+      g1Elements[0].setAttribute("skill-points", "15");
+      g2Elements[0].setAttribute("skill-points", "40");
       g3Elements[0].setAttribute("skill-points", "11");
-      g4Elements[0].setAttribute("skill-points", "19");
+      g4Elements[0].setAttribute("skill-points", "14");
       g5Elements[0].setAttribute("skill-points", "27");
-      g6Elements[0].setAttribute("skill-points", "39");
+      g6Elements[0].setAttribute("skill-points", "35");
 　　　//トレンドの点数を変更
       t1Elements[0].setAttribute("trend-points", "12");
       t2Elements[0].setAttribute("trend-points", "12");
@@ -156,8 +156,8 @@ document.addEventListener(
       g1Elements[0].setAttribute("skill-points", "12");
       g2Elements[0].setAttribute("skill-points", "13");
       g3Elements[0].setAttribute("skill-points", "15");
-      g4Elements[0].setAttribute("skill-points", "35");
-      g5Elements[0].setAttribute("skill-points", "30");
+      g4Elements[0].setAttribute("skill-points", "29");
+      g5Elements[0].setAttribute("skill-points", "36");
       g6Elements[0].setAttribute("skill-points", "23");
       //トレンドの点数を変更
       t1Elements[0].setAttribute("trend-points", "15");
