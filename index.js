@@ -17,7 +17,8 @@ document.addEventListener(
     const gattaibutton_karyuuguruma = document.querySelector(
       ".w-otomo-ss-tab.karyuuguruma"
     );
-
+    
+    
     // 突撃隊をクリックした時の処理
     function handleClick1_totugeki(event) {
       //合体技の点数を取得
@@ -186,6 +187,10 @@ document.addEventListener(
     const trendbuttons = document.querySelectorAll(
       ".w-otomo-ss-weapon-tab-inner"
     );
+    const trendbuttons_selected = document.querySelectorAll(
+      ".w-otomo-ss-weapon-tab-inner._selected"
+    );    
+    
 
     // ボタンをクリックした時の処理
     function handleClick2(event) {
@@ -243,6 +248,11 @@ document.addEventListener(
 
     searchButton.addEventListener("click", () => {
       const resultContainer = document.querySelector(".w-otomo-ss-result");
+      //トレンド毎にトレンドポイントを変更
+      var trendElements = document.getElementsByClassName("w-otomo-ss-weapon-tab-inner _selected")
+      let trend_points= parseInt(
+        trendElements[0].getAttribute("trend-points")
+      );
       //合計点の導出
       let total_points = trend_points + skill_points;
       let monster_img;
