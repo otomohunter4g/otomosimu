@@ -45,10 +45,10 @@ document.addEventListener(
       // クリックされたボタンに「_is-active」classを追加
       event.currentTarget.classList.add("_is-active");
       //合体技の点数を変更
-      g1Elements[0].setAttribute("skill-points", "15");
-      g2Elements[0].setAttribute("skill-points", "40");
+      g1Elements[0].setAttribute("skill-points", "21");
+      g2Elements[0].setAttribute("skill-points", "34");
       g3Elements[0].setAttribute("skill-points", "11");
-      g4Elements[0].setAttribute("skill-points", "14");
+      g4Elements[0].setAttribute("skill-points", "20");
       g5Elements[0].setAttribute("skill-points", "27");
       g6Elements[0].setAttribute("skill-points", "35");
 　　　//トレンドの点数を変更
